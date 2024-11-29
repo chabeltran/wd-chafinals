@@ -1,0 +1,276 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #cc0000;
+}
+
+p {
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #cc0000;
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+.navbar {
+    background-color: #2b2b2b;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+.navbar .nav-link:hover {
+    color: #ffcc00 !important;
+}
+
+.footer {
+    background-color: #2b2b2b;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.header {
+    background-color: #2b2b2b;
+    color: #fff;
+    padding: 120px 20px;
+    text-align: center;
+    background-image: url('assets/img/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.header p {
+    font-size: 1.5rem;
+}
+
+section {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+}
+
+section h2 {
+    text-align: center;
+    color: #cc0000;
+}
+
+section p {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: #006400;
+    font-size: 1.2rem;
+}
+
+.card-text {
+    color: #333;
+}
+
+.card img {
+    border-bottom: 5px solid #ffcc00;
+}
+
+.btn-primary {
+    background-color: #cc0000;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #ffcc00;
+    color: #000;
+}
+
+.text-red {
+    color: #cc0000;
+}
+
+.billing-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    margin: 40px auto;
+}
+
+.page-title {
+    text-align: center;
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+label {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+}
+
+input:focus,
+select:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.order-summary {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.order-summary h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.order-item:last-child {
+    border-bottom: none;
+}
+
+.order-total {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 14px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-cancel {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn-cancel:hover {
+    background-color: #d32f2f;
+}
+
+.btn-confirm {
+    background-color: #007BFF;
+    color: white;
+}
+
+.btn-confirm:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .header p {
+        font-size: 1.2rem;
+    }
+
+    .btn-primary {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+
+    .card img {
+        max-height: 250px;
+    }
+
+    .billing-container {
+        padding: 15px 20px;
+        width: 100%;
+    }
+
+    .order-summary {
+        padding: 15px;
+    }
+
+    .btn {
+        padding: 12px 16px;
+    }
+}

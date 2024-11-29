@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>POPMART - Services & Billing</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="C:\Users\Cha\Desktop\wd-chafinals\pages\page2\assets\css\style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">POPMART</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="C:\Users\Cha\Desktop\wd-chafinals\index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="C:\Users\Cha\Desktop\wd-chafinals\pages\page1\index.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="C:\Users\Cha\Desktop\wd-chafinals\pages\page2\index.html">Services & Billing</a></li>
+          <li class="nav-item"><a class="nav-link" href="C:\Users\Cha\Desktop\wd-chafinals\pages\page3\index.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="py-5">
+    <div class="container">
+      <h1>Our Services</h1>
+      <p>POPMART offers a variety of services for collectors and toy enthusiasts:</p>
+      <ul class="list-group list-group-flush mt-4">
+        <li class="list-group-item"> *Custom Packaging* - Personalize your orders for special occasions.</li>
+        <li class="list-group-item"> *Pre-order Collectibles* - Reserve exclusive, limited-edition items before they're released.</li>
+        <li class="list-group-item"> *Gift Wrapping Services* - Perfect for birthdays and holidays.</li>
+        <li class="list-group-item"> *Worldwide Shipping* - Delivering joy to collectors around the globe.</li>
+        <li class="list-group-item"> *Exclusive Discounts for Members* - Join our loyalty program to enjoy special perks.</li>
+      </ul>
+    </div>
+  </section>
+  <div class="billing-container">
+    <h1 class="page-title">Billing Information</h1>
+    <div class="billing-form">
+        <div class="section">
+            <h2>Customer Information</h2>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Chairsse Beltran">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="chab  @example.com">
+        </div>
+        <div class="section">
+            <h2>Billing Address</h2>
+            <label for="address">Street Address</label>
+            <input type="text" id="address" placeholder="123 Main St">
+            <label for="city">City</label>
+            <input type="text" id="city" placeholder="San Pedro">
+            <label for="zipcode">Zip Code</label>
+            <input type="text" id="zipcode" placeholder="12345">
+            <label for="country">Country</label>
+            <select id="country">
+                <option value="ph">Philippines</option>
+                <option value="us">United States</option>
+                <option value="ca">Japan</option>
+                <option value="ca">Europe</option>
+            </select>
+        </div>
+        <div class="section">
+            <h2>Payment Details</h2>
+            <label for="card-number">Card Number</label>
+            <input type="text" id="card-number" placeholder="1234 5678 9012 3456">
+            <label for="expiry">Expiry Date</label>
+            <input type="month" id="expiry">
+            <label for="cvv">CVV</label>
+            <input type="text" id="cvv" placeholder="123">
+        </div>
+    </div>
+    <div class="order-summary">
+        <h2>Order Summary</h2>
+        <div class="order-item">
+            <span>Item 1</span>
+            <span>₱600</span>
+        </div>
+        <div class="order-item">
+            <span>Item 2</span>
+            <span>₱600</span>
+        </div>
+        <div class="order-total">
+            <span>Total</span>
+            <span>₱1200</span>
+        </div>
+    </div>
+    <div class="actions">
+        <button class="btn btn-cancel">Cancel</button>
+        <button class="btn btn-confirm">Confirm Payment</button>
+    </div>
+</div>
+  <footer class="footer">
+    <p>&copy; 2024 POPMART. All rights reserved.</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
