@@ -63,20 +63,20 @@ Description of the project in details.
 
 Guiding Question:
   - What is the project?
-   * The project is a website for PopMart, a toy company that wants to create a fun and interactive online space for customers. The website will have multiple pages, each dedicated to different categories of toys, information about the company, and the option to buy products directly from the site.
+    The project is a website for PopMart, a toy company that wants to create a fun and interactive online space for customers. The website will have multiple pages, each dedicated to different categories of toys, information about the company, and the option to buy products directly from the site.
 
   - What’s the purpose?
-   * The purpose of the website is to introduce PopMart's toy collection, make it easy for people to browse and shop, and create an enjoyable experience for customers. The website will also help PopMart connect with their audience and showcase the unique designs of their toys.
+    The purpose of the website is to introduce PopMart's toy collection, make it easy for people to browse and shop, and create an enjoyable experience for customers. The website will also help PopMart connect with their audience and showcase the unique designs of their toys.
 
   - What are key components
-* Website Responsiveness: Ensuring the website looks great and works well on any device.
-* Multi-Page Website: Organized pages for different content sections.
-* Bootstrap Embedded: Using the Bootstrap framework to streamline design and responsiveness.
+ Website Responsiveness: Ensuring the website looks great and works well on any device.
+ Multi-Page Website: Organized pages for different content sections.
+Bootstrap Embedded: Using the Bootstrap framework to streamline design and responsiveness.
   
  - What technology used and how it is used
-   * HTML: This is the main building block of the website. It provides the structure and organizes the content like text, images, and links.
-   * CSS: This is used along with HTML to style the website. It adds colors, fonts, and layouts, making the website look nice and easy to use.
-   *Bootstrap: This tool helps make the website responsive, meaning it will look great and work well on any device, whether it's a computer, tablet, or phone.
+    HTML: This is the main building block of the website. It provides the structure and organizes the content like text, images, and links.
+    CSS: This is used along with HTML to style the website. It adds colors, fonts, and layouts, making the website look nice and easy to use.
+   Bootstrap: This tool helps make the website responsive, meaning it will look great and work well on any device, whether it's a computer, tablet, or phone.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
