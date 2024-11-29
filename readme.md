@@ -2,18 +2,20 @@
 
 <br/>
 
+[![wakatime](https://wakatime.com/badge/user/f74285d8-2630-4480-a969-3a8736d4b8e2/project/4ef9f9cf-a711-45d3-a042-e3c60dd81dc7.svg)](https://wakatime.com/badge/user/f74285d8-2630-4480-a969-3a8736d4b8e2/project/4ef9f9cf-a711-45d3-a042-e3c60dd81dc7)
+
 <br />
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/POPMARTLOGO.png" alt="POPMART" width="200" height="200">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">POPMART</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  POP MART is a rising global force in pop culture and entertainment. Our purpose is to celebrate daily moments and inspire through designer toys and fun experiences.
 </div>
 
 <br />
@@ -60,17 +62,28 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+  - What is the project?
+    The project is a website for PopMart, a toy company that wants to create a fun and interactive online space for customers. The website will have multiple pages, each dedicated to different categories of toys, information about the company, and the option to buy products directly from the site.
+
+  - What’s the purpose?
+    The purpose of the website is to introduce PopMart's toy collection, make it easy for people to browse and shop, and create an enjoyable experience for customers. The website will also help PopMart connect with their audience and showcase the unique designs of their toys.
+
+  - What are key components
+ Website Responsiveness: Ensuring the website looks great and works well on any device.
+ Multi-Page Website: Organized pages for different content sections.
+Bootstrap Embedded: Using the Bootstrap framework to streamline design and responsiveness.
+  
+ - What technology used and how it is used
+    HTML: This is the main building block of the website. It provides the structure and organizes the content like text, images, and links.
+    CSS: This is used along with HTML to style the website. It adds colors, fonts, and layouts, making the website look nice and easy to use.
+   Bootstrap: This tool helps make the website responsive, meaning it will look great and work well on any device, whether it's a computer, tablet, or phone.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Website Responsiveness
+- Multi-Page Website
+- Bootstrap Embedded
 
 ### Technology
 <!-- TODO: List of Technology Used -->
